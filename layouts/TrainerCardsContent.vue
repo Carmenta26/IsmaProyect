@@ -1,6 +1,6 @@
 <template>
   <div>
-    <div class="flex min-h-screen items-center justify-center bg-cover bg-center " style="background-image: url(/assets/free.jpeg); height: 600px ;">
+    <div class="flex min-h-screen items-center justify-center bg-cover bg-center relative overflow-hidden" style="background-image: url(/assets/free.jpeg); ">
 
       <div class="grid grid-cols-1 gap-10 md:grid-cols-2 lg:grid-cols-2">
 
