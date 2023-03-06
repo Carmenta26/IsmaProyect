@@ -13,14 +13,14 @@
           <div class="wave parallax bg-cover bg-center brightness-50 z-0 "
                style="background-image: url(/assets/head.jpeg); height: 850px;">
             <div class=" grid place-content-center h-full bg-transparent">
-              <TrainerTitle title="UNETE AL EQUIPO DATUPA"/>
-              <TrainerTitleDescrition title=" CAMBIA TU VIDA DISFRUTANDO DE LA COMIDA Y DE LOS ENTRENAMIENTOS."/>
+              <TrainerTitle title="UNETE AL TEAM FITBYISMA"/>
+              <TrainerTitleDescrition title=" CAMBIA TU VIDA COMIENDO DE TODO."/>
 
               <div class="grid place-content-center">
 
                 <TrainerRoundedButton>
-                  <p>Agenda una llamada</p>
-                  <p>GRATUITA</p>
+                  <p>QUIERO CAMBIAR </p>
+                  <p>AHORA</p>
                 </TrainerRoundedButton>
 
               </div>
@@ -34,7 +34,7 @@
       <section class="grid justify-items-center place-content-center sm:flex sm:justify-center ">
         <div class=" grid  md:grid-cols-3 px-4 md:gap-10 py-10 sm:w-3/4">
           <div class=" sm:col-span-2  text-justify">
-            <TrainerSubtitle title="¿Por qué TEAM Fitdos?"/>
+            <TrainerSubtitle title="¿Por qué TEAM FITBYISMA?"/>
             <TrainerDescription :description="why.description1"/>
             <TrainerDescription :description="why.description2"/>
             <TrainerDescription :description="why.description3"/>
@@ -162,7 +162,7 @@
             </div>
 
           <div class="col-span-1 sm:col-span-2  text-justify">
-            <TrainerSubtitle title="¡DATUPA!"/>
+            <TrainerSubtitle title="¡Ismael Charafi!"/>
             <TrainerDescription :description="know.description1"/>
             <TrainerDescription :description="know.description2"/>
             <TrainerDescription :description="know.description3"/>
@@ -199,16 +199,22 @@
       <section>
         <div class=" text-center h-auto grid place-content-center bg-neutral-800 w-full mx-auto text-white gap-7">
           <div class="flex justify-center">
-            <img src="/assets/ring3city-logo-dark.png" alt="Logo" class="h-14 pt-3">
+            <img src="/assets/logo.png" alt="Logo" class="h-14 pt-3">
           </div>
           <div class="grid justify-items-center">
-            <p class="text-center"> © DATUPA 2022 All Rights Reserved</p>
+            <p class="text-center"> © FITBYISMA 2022 All Rights Reserved</p>
             <p class="text-center">Términos y condiciones</p>
 
             <div class="flex gap-5 py-1">
+              <a href="https://www.instagram.com/fitbyisma/" target="_blank">
               <img class="h-10 py-1.5" src="/assets/icons/instagram.png">
+              </a>
+              <a href="https://www.tiktok.com/@fitbyisma" target="_blank">
               <img class="h-10 py-1.5" src="/assets/icons/tik-tok.png">
+              </a>
+              <a href="https://www.youtube.com/@fitbyisma/videos" target="_blank">
               <img class="h-10 py-1.5" src="/assets/icons/youtube.png">
+              </a>
             </div>
           </div>
         </div>
@@ -252,11 +258,11 @@ export default {
     return {
       why: {
         description1: `¿Quieres sentirte más seguro y fuerte mientras logras el mejor físico de tu vida?`,
-        description2: `¡Con mis métodos probados, cambiarás tu vida y obtendrás el cuerpo que siempre has soñado! El ejercicio es solo el comienzo.`,
-        description3: `Hay cientos de programas en línea que prometen "soluciones rápidas" a través de dietas y suplementos rápidos. Claro, puedes perder peso rápidamente, pero no funcionarán a largo plazo. Mi plan es diferente. Como parte del equipo de Datupa, aprendes sobre entrenamiento, dieta y vida como yo. No se trata de cualquier plan de acondicionamiento físico y dieta, sino de un cambio completo en el estilo de vida. ¡No es una inversión en su dieta y rutina personal, es una inversión en aprender un método que le permitirá pasar el resto de su vida de una manera completamente diferente!`,
-        description4: `Fitness construye la disciplina, la confianza y la fortaleza mental. El fitness es la clave del éxito en todas las demás áreas de la vida. Si estás listo para ponerte en forma, tomar el control de tu vida, experimentar el éxito como lo hice yo y hacer que todos se pregunten cómo lo lograste, ahora es el momento.`,
-        description5: `¿Estás listo para unirte a los miles de miembros del equipo que ya han cambiado vidas a través de mi programa?`,
-        description6: `¿Prepárate y únete a los miles de miembros de Team Llados que ya cambiaron sus vidas con mi programa?`,
+        description2: `He ayudado a individuos de entre 30 y 50 años a perder más de 15 kilos de grasa y tonificar su cuerpo en solo 90 días, logrando transformar más de 102 vidas.`,
+        description3: `Con mi método comprobado, cambiarás tu vida y conseguirás el cuerpo que siempre has deseado. El ejercicio es solo el principio.`,
+        description4: `Hay innumerables programas en línea que prometen "soluciones rápidas" a través de dietas y suplementos mágicos. Es cierto que puedes perder peso rápidamente, pero no durará a largo plazo. Mi plan es diferente. Como miembro del equipo de FITBYISMA, aprenderás sobre entrenamiento, dieta y estilo de vida de la mano de expertos en la materia. Este no es solo otro programa de fitness y dieta, sino una transformación completa en tu estilo de vida. No es solo una inversión en tu dieta y rutina, sino en aprender un método que te permitirá vivir de una manera completamente diferente el resto de tu vida.`,
+        description5: `El fitness construye disciplina, confianza y fortaleza mental. Es la clave del éxito en todas las áreas de la vida. Si estás listo para ponerte en forma, tomar el control de tu vida, experimentar el éxito como lo he hecho yo y dejar a todos asombrados por tus logros, ¡es el momento de unirte al equipo de miles de miembros que ya han transformado sus vidas gracias a mi programa!`,
+        //description6: `¿Prepárate y únete a los miles de miembros de Team Llados que ya cambiaron sus vidas con mi programa?`,
       },
       containing1: {
         description1: `Recibirás un programa de entrenamineto personalizado, adaptado a tus necesidades y objetivos, con rutinas de ejercicios que esto ayudara a transformar tu cuerpo y que consigas los mejores resultados en el menor tiempo posible.`,
@@ -265,17 +271,17 @@ export default {
 
       },
       containing2: {
-        description5: `3 Planes de comidas adaptados a ti estilo DATUPA al mes. No necesitarás una dieta nunca más.`,
+        description5: `3 Planes de comidas adaptados a ti estilo FITBYISMA al mes. No necesitarás una dieta nunca más.`,
         description1: `Los planes de comidas son DELICIOSOS y FÁCILES si deseas que este estilo de vida sea sostenible y agradable. Estoy muy orgulloso de mi plan de comidas, porque las comidas son absolutamente increíbles.`,
         description2: `Te daré 7 días de variedad dentro del plan para que puedas cambiarlos todos los días o simplemente elegir un día para seguir (personalmente prefiero este método). Puedes enviarme un correo electrónico para ajustar las comidas y agregar comidas específicas o sustituir las que no te gusten.`,
         description3: `Puede expresar sus disgustos/alergias antes de comenzar para que no tenga que comer alimentos que no le gustan. Mi objetivo es que comas tus comidas favoritas mientras obtienes los mejores resultados. Esta es en realidad mi experiencia!`,
         description4: `¡Quiero que este proceso sea lo más cómodo posible!`,
       },
       know: {
-        description1: `A los 17 años lancé mi vida al mundo del fitness para deshacerme de los malos hábitos. Mi pasión por el fitness me ha llevado a centrar mi carrera universitaria en la especialización en Estudios del Movimiento Humano, Fisioterapia.`,
-        description2: `Soy preparadora física online desde hace más de 5 años. Más de 5000 personas han cambiado su vida y su cuerpo con mis consejos`,
-        description3: `Creo que cuando nos damos cuenta del estilo de vida que nos brinda el fitness, tenemos el poder de lograr cualquier cosa. Me encanta ver como el fitness ha cambiado mi vida y me ha apasionado al 100% y como puedo ayudar a cambiar la vida de miles de personas de esta manera, mejorar su salud, acabar con malos hábitos, solucionar sus problemas emocionales y al mismo tiempo mejorar. su apariencia y condición física.`,
-        description4: `En Ever Team somos una gran familia, una gran comunidad sin clientes, solo aquellos que nos confían con sentido de intimidad y dedicación a través de un programa a la medida de sus necesidades.`,
+        description1: `Hace unos años, era un chico gordito y mi físico no me gustaba nada. Me sentía incapaz de ponerme cualquier tipo de ropa que quisiera, y la idea de quitarme la camiseta en la playa me causaba vergüenza. Estaba atrapado en un círculo vicioso en el que intentaba seguir dietas estrictas y aburridas, pero siempre las abandonaba porque no lograba ser constante y los resultados no eran los esperados.`,
+        description2: `Pero un día, decidí tomar el control de mi vida y convertirme en el entrenador y experto en nutrición que necesitaba. Diseñé mi propia metodología, la dieta flexible, que me permitió comer todo tipo de comidas, disfrutar de mis platos favoritos y ver resultados notables en menos de un mes. Conseguí un cambio físico impresionante que no solo transformó mi cuerpo, sino que también cambió mi vida. La seguridad y la confianza en mí mismo que obtuve me permitieron dedicarme a lo que realmente me apasiona: ayudar a otras personas a transformar sus cuerpos y cambiar sus vidas.`,
+        description3: `Hoy en día, siento una gran satisfacción al saber que he ayudado a cientos de personas a lograr los mismos cambios que yo experimenté. No solo me he convertido en una figura de referencia en el mundo de la nutrición y el acondicionamiento físico, sino que también me he convertido en un modelo a seguir para aquellos que buscan mejorar su bienestar físico y emocional. Todo lo que he logrado es gracias a mi dedicación, esfuerzo y perseverancia, y me siento agradecido por cada día que tengo la oportunidad de seguir ayudando a otros a alcanzar sus objetivos y vivir la vida que merecen.`,
+        description4: `En FITBYISMA somos una comunidad unida y dedicada, que ofrece programas personalizados y cercanos. Aquí, no somos meros proveedores de servicios, sino familia comprometidos con tu bienestar y dispuestos a ayudarte en cada paso del camino.`,
 
       },
 
