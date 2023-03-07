@@ -10,10 +10,10 @@
       <!--Header-->
       <section>
         <div>
-          <div class="wave parallax bg-cover bg-center brightness-50 z-0 "
-               style="background-image: url(/assets/head.jpeg); height: 850px;">
+          <div class="wave parallax  bg-center brightness-50 z-0 "
+               style="background-image: url(/assets/head.jpg); height: 850px;">
             <div class=" grid place-content-center h-full bg-transparent">
-              <TrainerTitle title="UNETE AL TEAM FITBYISMA"/>
+              <TrainerTitle title="ASESORAMIENTO PERSONAL PARA PERDER GRASA Y TONIFICAR"/>
               <TrainerTitleDescrition title=" CAMBIA TU VIDA COMIENDO DE TODO."/>
 
               <div class="grid place-content-center">
@@ -35,8 +35,11 @@
         <div class=" grid  md:grid-cols-3 px-4 md:gap-10 py-10 sm:w-3/4">
           <div class=" sm:col-span-2  text-justify">
             <TrainerSubtitle title="¿Por qué TEAM FITBYISMA?"/>
-            <TrainerDescription :description="why.description1"/>
-            <TrainerDescription :description="why.description2"/>
+            <TrainerDescription :description="why.description1" class="font-bold"/>
+            <p>
+              <span class="font-bold text-base  py-1.5">Conozco esa sensacion de verte mal por cada espejo al que pasas. De no verte bien con cualquier prenda de ropa y tener una baja autoestima asi que Ayudo a hombres y mujeres</span> que les cueste perder grasa, a que lo consigan disfrutando de sus comidas favoritas y mejorando sus habitos y salud sin pasar hambre y viendo resultados en menos de 1 més.
+            </p>
+
             <TrainerDescription :description="why.description3"/>
             <TrainerDescription :description="why.description4"/>
             <TrainerDescription :description="why.description5"/>
@@ -50,7 +53,7 @@
               <atropos >
 
               <div class="bg-cover bg-center h-[600px]  w-72 mx-auto" data-atropos-offset="-5"
-                   style="background-image: url(/assets/why.webp);">
+                   style="background-image: url(/assets/why.jpg);">
               </div>
               </atropos>
 
@@ -68,12 +71,14 @@
         <div class="h-24 grid place-content-center text-center bg-teal-400 w-full ">
           <TrainerSubtitle title="Transformaciones de Clientes "/>
         </div>
-        <TrainerCarrousel/>
-      </section>
+        <!--<TrainerCarrousel/>-->
+        <!--<GaleryPhone/>-->
+        <GaleryPhone/>
+    </section>
 
 
-      <!--containing-->
-      <div class="h-24 grid place-content-center text-center bg-teal-400 w-full">
+    <!--containing-->
+      <div class="h-24 grid place-content-center text-center bg-teal-400 w-full ">
         <TrainerSubtitle title="Programas diseñados para ti"/>
       </div>
 
@@ -81,7 +86,7 @@
         <div class=" grid  md:grid-cols-3 px-4 md:gap-10 py-10 sm:w-3/4">
           <div class=" sm:col-span-2  text-justify">
             <TrainerSubtitle title="Programas de entrenamiento adaptado a ti"/>
-            <TrainerDescription :description="containing1.description1"/>
+            <p>Te crearé un plan de entrenamiento totalmente personalizado y adaptado a tu cuerpo para que consigas <span class="font-bold text-base  py-1.5">los mejores resultados en el menor tiempo posible.</span></p>
             <TrainerDescription :description="containing1.description2"/>
             <TrainerDescription :description="containing1.description3"/>
            </div>
@@ -100,7 +105,7 @@
             <TrainerSubtitle title="Planes de alimentación adaptados ati"/>
 
             <TrainerDescription :description="containing2.description1"/>
-            <TrainerDescription :description="containing2.description5"/>
+
             <TrainerDescription :description="containing2.description3"/>
             <TrainerDescription :description="containing2.description4"/>
           </div>
@@ -238,11 +243,13 @@ import TrainerCardsContent from "../layouts/TrainerCardsContent";
 import ExpertIn from "../layouts/TrainerExpertIn";
 import TrainerCarrousel from "/layouts/TrainerCarrousel.vue";
 import Atropos from "atropos/vue";
+import GaleryPhone from "~/layouts/GaleryPhone.vue";
 
 
 
 export default {
   components: {
+    GaleryPhone,
     TrainerCarrousel,
     TrainerCardsContent,
     TrainerButtonMedium,
@@ -257,11 +264,11 @@ export default {
   data: () => {
     return {
       why: {
-        description1: `¿Quieres sentirte más seguro y fuerte mientras logras el mejor físico de tu vida?`,
-        description2: `He ayudado a individuos de entre 30 y 50 años a perder más de 15 kilos de grasa y tonificar su cuerpo en solo 90 días, logrando transformar más de 102 vidas.`,
-        description3: `Con mi método comprobado, cambiarás tu vida y conseguirás el cuerpo que siempre has deseado. El ejercicio es solo el principio.`,
-        description4: `Hay innumerables programas en línea que prometen "soluciones rápidas" a través de dietas y suplementos mágicos. Es cierto que puedes perder peso rápidamente, pero no durará a largo plazo. Mi plan es diferente. Como miembro del equipo de FITBYISMA, aprenderás sobre entrenamiento, dieta y estilo de vida de la mano de expertos en la materia. Este no es solo otro programa de fitness y dieta, sino una transformación completa en tu estilo de vida. No es solo una inversión en tu dieta y rutina, sino en aprender un método que te permitirá vivir de una manera completamente diferente el resto de tu vida.`,
-        description5: `El fitness construye disciplina, confianza y fortaleza mental. Es la clave del éxito en todas las áreas de la vida. Si estás listo para ponerte en forma, tomar el control de tu vida, experimentar el éxito como lo he hecho yo y dejar a todos asombrados por tus logros, ¡es el momento de unirte al equipo de miles de miembros que ya han transformado sus vidas gracias a mi programa!`,
+        description1: `¿No te gusta tu fisico?`,
+        description2: `Conozco esa sensacion de verte mal por cada espejo al que pasas. De no verte bien con cualquier prenda de ropa y tener una baja autoestima asi que Ayudo a hombres y mujeres que les cueste perder grasa, a que lo consigan disfrutando de sus comidas favoritas y mejorando sus habitos y salud sin pasar hambre y viendo resultados en menos de 1 més.`,
+        description3: `El 87% de las personas que intentan perder grasa no lo consiguen porque en los métodos convencionales se necesita demasiada fuerza de voluntad, son demasiado aburridos y estrictos, es difícil de aguantar, y el 87% NO CONSIGUE SER CONSTANTE.`,
+        description4: `Pero mi método es completamente diferente, conmigo no vas a estar a dieta estricta, si no que vas a aprender a comer de todo, disfrutar de comidas deliciosas y fáciles de preparar al mismo tiempo que consigues resultados, y te puedo asegurar que los tendrás en menos de 1 mes, mi metodología es simple:`,
+        description5: `"Disfruta de tus alimentos favoritos, sin pasar hambre, y pierde grasa en menos de 30 días"`,
         //description6: `¿Prepárate y únete a los miles de miembros de Team Llados que ya cambiaron sus vidas con mi programa?`,
       },
       containing1: {
@@ -272,7 +279,7 @@ export default {
       },
       containing2: {
         description5: `3 Planes de comidas adaptados a ti estilo FITBYISMA al mes. No necesitarás una dieta nunca más.`,
-        description1: `Los planes de comidas son DELICIOSOS y FÁCILES si deseas que este estilo de vida sea sostenible y agradable. Estoy muy orgulloso de mi plan de comidas, porque las comidas son absolutamente increíbles.`,
+        description1: `Mi metodología es la dieta flexible y personalizada, con la que disfrutarás de tus comidas favoritas, sin pasar hambre, y verás resultados en menos de 1 mes.`,
         description2: `Te daré 7 días de variedad dentro del plan para que puedas cambiarlos todos los días o simplemente elegir un día para seguir (personalmente prefiero este método). Puedes enviarme un correo electrónico para ajustar las comidas y agregar comidas específicas o sustituir las que no te gusten.`,
         description3: `Puede expresar sus disgustos/alergias antes de comenzar para que no tenga que comer alimentos que no le gustan. Mi objetivo es que comas tus comidas favoritas mientras obtienes los mejores resultados. Esta es en realidad mi experiencia!`,
         description4: `¡Quiero que este proceso sea lo más cómodo posible!`,

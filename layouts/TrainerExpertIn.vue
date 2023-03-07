@@ -16,17 +16,18 @@
           SOMOS EXPERTOS EN:
         </h2>
         <div class="flex justify-center items-center h-full sm:h-96  ">
-          <div class="grid grid-cols-1 sm:grid sm:grid-cols-2  gap-12 w-3/4 items-center ">
+          <div class="grid grid-cols-1 sm:grid sm:grid-cols-3  gap-12 w-3/4 items-center ">
             <div class=" items-center justify-center py-1.5  text-center">
               <div class="flex items-center justify-center">
                 <img src="/assets/icons/fitness.png" alt="" class="h-24">
               </div>
 
               <h2 class=" text-teal-400 text-2xl font-semibold py-1.5">
-                Bajar de peso
+                Perdida de grasa
               </h2>
               <p class="text-white text-base font-normal py-1.5">
-                Transforma tu cuerpo y logra la figura que deseas con nuestro programa de pérdida de peso
+                Conseguire que tonifiques cada musculo de tu cuerpo, desde las piernas al abdomen para que obtengas un cuerpo estetico
+
               </p>
 
             </div>
@@ -41,6 +42,18 @@
                 <p class="text-white text-base font-normal py-1.5">
                   Tonifica y reafirma tu cuerpo para lograr una apariencia estética con nuestro programa de entrenamiento. Te ayudamos a alcanzar tus objetivos.
                 </p>
+            </div>
+
+            <div class=" items-center justify-center py-1.5  text-center">
+              <div class="flex items-center justify-center">
+                <img src="/assets/icons/abdominoplastia.png" alt="" class="h-24">
+              </div>
+              <h2 class=" text-teal-400 text-2xl font-semibold py-1.5">
+                Cuerpo estetico
+              </h2>
+              <p class="text-white text-base font-normal py-1.5">
+                Con mi metodo conseguiras esa figura de cuerpo que buscas a traves de mi entrenamiento personalizado para ti
+              </p>
             </div>
 
           </div>
