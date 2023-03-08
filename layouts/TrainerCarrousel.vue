@@ -15,8 +15,11 @@
 
 <script>
 export default {
-  name: "TrainerCarrousel"
+  name: "TrainerCarrousel",
+
 }
+
+
 </script>
 
 <style scoped>
