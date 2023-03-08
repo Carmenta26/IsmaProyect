@@ -1,6 +1,6 @@
 <template>
   <section
-    class="flex min-h-screen items-center justify-center bg-cover bg-center relative overflow-hidden"
+    class="flex mt-4 mb-4 items-center justify-center bg-cover bg-center relative overflow-hidden"
   >
     <div
       v-for="link in links"

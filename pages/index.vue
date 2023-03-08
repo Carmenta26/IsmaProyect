@@ -190,7 +190,7 @@
         <div class="h-24 grid place-content-center bg-teal-400 w-full">
           <TrainerSubtitle title="TESTIMONIOS"/> 
         </div>
-        <div class="py-5">
+        <div>
           <TestimonialsContent />
         </div>
       </section>
