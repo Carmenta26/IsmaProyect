@@ -4,7 +4,7 @@
 
       <div class="grid grid-cols-1 gap-10 md:grid-cols-2 lg:grid-cols-2">
 
-        <div class="group relative cursor-pointer items-center justify-center overflow-hidden transition-shadow sm:shadow-xl shadow-black/30 lg:hover:shadow-xl lg:hover:shadow-black/30">
+        <div class="group relative cursor-pointer items-center justify-center overflow-hidden transition-shadow sm:shadow-xl shadow-black/30 lg:hover:shadow-xl lg:hover:shadow-black/30 rounded-xl">
           <div class=" h-min sm:h-96 w-72">
             <img class="h-full w-full object-cover transition-transform duration-500 lg:group-hover:rotate-3 lg:group-hover:scale-125" src="https://images.pexels.com/photos/5605061/pexels-photo-5605061.jpeg?cs=srgb&dl=pexels-maksim-goncharenok-5605061.jpg&fm=jpg" alt="" />
           </div>
@@ -15,7 +15,7 @@
 
           </div>
         </div>
-        <div class="group relative cursor-pointer items-center justify-center overflow-hidden transition-shadow lg:hover:shadow-xl lg:hover:shadow-black/30">
+        <div class="group relative cursor-pointer items-center justify-center overflow-hidden transition-shadow lg:hover:shadow-xl lg:hover:shadow-black/30 rounded-xl">
           <div class="h-full sm:h-96 w-72">
             <img class="h-full w-full object-cover transition-transform duration-500 lg:group-hover:rotate-3 lg:group-hover:scale-125" src="https://images.pexels.com/photos/13709184/pexels-photo-13709184.jpeg?auto=compress&cs=tinysrgb&w=1600" alt="" />
           </div>
