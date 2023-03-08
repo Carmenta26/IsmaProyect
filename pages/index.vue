@@ -186,20 +186,17 @@
 
 
       <!--TESTIMONIALS-->
-
       <section>
         <div class="h-24 grid place-content-center bg-teal-400 w-full">
-          <TrainerSubtitle title="TESTIMONIOS"/>
+          <TrainerSubtitle title="TESTIMONIOS"/> 
         </div>
         <div class="py-5">
-
+          <TestimonialsContent />
         </div>
       </section>
 
 
-
-
-
+      
       <!--Footer-->
       <section>
         <div class=" text-center h-auto grid place-content-center bg-neutral-800 w-full mx-auto text-white gap-7">
@@ -244,6 +241,7 @@ import ExpertIn from "../layouts/TrainerExpertIn";
 import TrainerCarrousel from "/layouts/TrainerCarrousel.vue";
 import Atropos from "atropos/vue";
 import GaleryPhone from "~/layouts/GaleryPhone.vue";
+import TestimonialsContent from "~~/layouts/TestimonialsContent.vue";
 
 
 
@@ -260,7 +258,8 @@ export default {
     TrainerTitle,
     ExpertIn,
     Atropos,
-  },
+    TestimonialsContent
+},
   data: () => {
     return {
       why: {
