@@ -32,7 +32,7 @@
 
       <!--Why-->
       <section class="grid justify-items-center place-content-center sm:flex sm:justify-center ">
-        <div class=" grid  md:grid-cols-3 px-4 md:gap-10 py-10 sm:w-3/4">
+        <div class="grid  md:grid-cols-3 px-4 md:gap-10 py-10 sm:w-3/4">
           <div class=" sm:col-span-2  text-justify">
             <TrainerSubtitle title="¿Por qué TEAM FITBYISMA?"/>
             <TrainerDescription :description="why.description1"/>
@@ -97,7 +97,7 @@
           </div>
 
           <div class=" sm:col-span-2  text-justify">
-            <TrainerSubtitle title="Planes de alimentación adaptados ati"/>
+            <TrainerSubtitle title="Planes de alimentación adaptados a ti"/>
 
             <TrainerDescription :description="containing2.description1"/>
             <TrainerDescription :description="containing2.description5"/>
