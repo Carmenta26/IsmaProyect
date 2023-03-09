@@ -1,6 +1,6 @@
 <template>
   <div>
-    <p class="text-base  py-1.5 " :class="textStyle">
+    <p class="text-lg  py-1.5 " :class="textStyle">
       {{description}}
       <slot></slot>
     </p>

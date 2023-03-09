@@ -1,6 +1,6 @@
 <template>
 <div>
-  <button class="text-black text-base font-semibold bg-teal-400 hover:text-black hover:bg-amber-50   px-6  rounded-lg ">
+  <button class="text-black text-base font-semibold bg-yellow-600 hover:text-black hover:bg-amber-50   px-6  rounded-lg ">
     {{content}}
     <slot></slot>
   </button>

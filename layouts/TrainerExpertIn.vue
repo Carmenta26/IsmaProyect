@@ -6,7 +6,7 @@
       <div class="h-24 grid  place-content-center  w-full pt-12">
 
         <h1 class=" text-white sm:text-3xl text-base  font-semibold  py-1.5">
-          +102 <span class="text-teal-400">VIDAS TRANSFORMADAS</span>
+          +102 <span class="text-yellow-600">VIDAS TRANSFORMADAS</span>
         </h1>
 
 
@@ -22,7 +22,7 @@
                 <img src="/assets/icons/fitness.png" alt="" class="h-24">
               </div>
 
-              <h2 class=" text-teal-400 text-2xl font-semibold py-1.5">
+              <h2 class=" text-yellow-600 text-2xl font-semibold py-1.5">
                 Perdida de grasa
               </h2>
               <p class="text-white text-base font-normal py-1.5">
@@ -36,7 +36,7 @@
                 <div class="flex items-center justify-center">
                   <img src="/assets/icons/lose-weight.png" alt="" class="h-24">
                 </div>
-                <h2 class=" text-teal-400 text-2xl font-semibold py-1.5">
+                <h2 class=" text-yellow-600 text-2xl font-semibold py-1.5">
                   Tonificar
                 </h2>
                 <p class="text-white text-base font-normal py-1.5">
@@ -48,7 +48,7 @@
               <div class="flex items-center justify-center">
                 <img src="/assets/icons/abdominoplastia.png" alt="" class="h-24">
               </div>
-              <h2 class=" text-teal-400 text-2xl font-semibold py-1.5">
+              <h2 class=" text-yellow-600 text-2xl font-semibold py-1.5">
                 Cuerpo estetico
               </h2>
               <p class="text-white text-base font-normal py-1.5">

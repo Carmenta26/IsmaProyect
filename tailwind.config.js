@@ -8,6 +8,9 @@ module.exports = {
         // Configure your color palette here
         gray: {
           50: '#28292b',
+        },
+        yellow: {
+          600: '#AD9032',
         }
       },
       fontFamily: {

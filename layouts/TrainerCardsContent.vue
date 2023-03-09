@@ -1,9 +1,9 @@
 <template>
   <div>
-    <div class="flex min-h-screen items-center justify-center bg-cover bg-center relative overflow-hidden" style="background-image: url(/assets/free.jpeg); ">
+    <div class="flex h-min items-center justify-center bg-cover bg-center relative overflow-hidden bg-white py-14"  >
 
-      <div class="grid grid-cols-1 gap-10 md:grid-cols-2 lg:grid-cols-2">
-
+      <!--div class="grid grid-cols-1 gap-10 md:grid-cols-2 lg:grid-cols-2">
+      
         <div class="group relative cursor-pointer items-center justify-center overflow-hidden transition-shadow sm:shadow-xl shadow-black/30 lg:hover:shadow-xl lg:hover:shadow-black/30">
           <div class=" h-min sm:h-96 w-72">
             <img class="h-full w-full object-cover transition-transform duration-500 lg:group-hover:rotate-3 lg:group-hover:scale-125" src="https://images.pexels.com/photos/5605061/pexels-photo-5605061.jpeg?cs=srgb&dl=pexels-maksim-goncharenok-5605061.jpg&fm=jpg" alt="" />
@@ -27,10 +27,43 @@
           </div>
         </div>
 
+      </div>-->
+      <div class=" grid grid-cols-1 sm:grid sm:grid-cols-3  gap-12 w-3/4 items-center ">
+
+
+
+
+        <div class="grid justify-items-center">
+          <img class="h-52 pb-7" src="/assets/videollamda.jpg" alt="">
+          <div class="text-2xl py-1.5 font-semibold">
+            Videollamadas Semanal
+          </div>
+          <div class="font-normal py-1.5 font-base text-center">
+            Control semanal conmigo mediante videollamadas, para revisar tu progreso, ajustar tu plan de entrenamiento y nutrición según tus necesidades y motivarte para seguir adelante.
+          </div>
+        </div>
+
+        <div class="grid justify-items-center">
+          <img class="h-max pb-7" src="/assets/appIsma.PNG" alt="">
+          <div class="text-2xl py-1.5 font-semibold">
+            Aplicación Móvil Exclusiva
+          </div>
+          <div class="font-normal  font-base text-center">
+            Acceso a una aplicación exclusiva donde tendrás toda la información sobre tu programa de entrenamiento y nutrición, videos explicativos de los ejercicios, clases de fitness impartidas por mí y métricas para que puedas medir tu progreso y mucho más.
+          </div>
+        </div>
+        <div class="grid justify-items-center">
+          <img class="h-52 pb-7" src="/assets/icons/whatsapp.png" alt="">
+          <div class="text-2xl py-1.5 font-semibold">
+            Soporte Por Whatsapp 24h
+          </div>
+          <div class="font-normal py-1.5 font-base text-center">
+            Tendrás soporte 24/7 por whatsaap para resolver dudas en cualquier momento  y recibir asistencia personalizada en cualquier momento.
+          </div>
+        </div>
       </div>
 
     </div>
-
   </div>
 </template>
 

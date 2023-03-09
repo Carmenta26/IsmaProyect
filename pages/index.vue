@@ -68,7 +68,7 @@
 
       <!--Transforms-->
       <section>
-        <div class="h-24 grid place-content-center text-center bg-teal-400 w-full ">
+        <div class="h-24 grid place-content-center text-center bg-yellow-600 w-full ">
           <TrainerSubtitle title="Transformaciones de Clientes "/>
         </div>
         <!--<TrainerCarrousel/>-->
@@ -78,7 +78,7 @@
 
 
     <!--containing-->
-      <div class="h-24 grid place-content-center text-center bg-teal-400 w-full ">
+      <div class="h-24 grid place-content-center text-center bg-yellow-600 w-full ">
         <TrainerSubtitle title="Programas diseñados para ti"/>
       </div>
 
@@ -93,8 +93,8 @@
           <div>
             <div class=" sm:block sm:inline py-4 px-4">
               <atropos >
-                <div class="bg-cover bg-center h-[600px]  w-72 mx-auto" data-atropos-offset="-5"
-                     style="background-image: url(/assets/conrtent_1.jpeg);">
+                <div class="bg-cover bg-center h-[400px]  w-72 mx-auto" data-atropos-offset="-5"
+                     style="background-image: url(/assets/entrenamiento.jpg);">
                 </div>
               </atropos>
 
@@ -112,13 +112,15 @@
           <div>
             <div class=" sm:block sm:inline py-4 px-4">
               <atropos >
-                <div class="bg-cover bg-center h-[600px]  w-72 mx-auto" data-atropos-offset="-5"
-                     style="background-image: url(/assets/content2.jpeg);">
+                <div class="bg-cover bg-center h-[400px]  w-72 mx-auto" data-atropos-offset="-5"
+                     style=" background-image: url(/assets/plan.comida.jpg );background-size: cover;">
                 </div>
               </atropos>
 
             </div>
           </div>
+
+
         </div>
       </section>
 
@@ -128,7 +130,7 @@
       <!--free-->
       <section>
 
-        <div class="h-24 grid place-content-center bg-teal-400 w-full">
+        <div class="h-24 grid place-content-center bg-yellow-600 w-full">
           <TrainerSubtitle title="Lo que también recibes GRATIS"/>
         </div>
         <!--free
@@ -152,7 +154,7 @@
 
       <!--meet your coach-->
 
-      <div class="h-24 grid place-content-center bg-teal-400 w-full">
+      <div class="h-24 grid place-content-center bg-yellow-600 w-full">
         <TrainerSubtitle title="Conoce a tu entrenador"/>
       </div>
       <section class="grid justify-items-center place-content-center sm:flex sm:justify-center ">
@@ -160,8 +162,11 @@
 
             <div class=" sm:block sm:inline py-4 px-4">
               <atropos >
-                <div class="bg-cover bg-center h-[600px]  w-72 mx-auto " data-atropos-offset="-5"
-                     style="background-image: url(/assets/know.jpeg);">
+
+
+                <div class="bg-center h-[600px] w-72 mx-auto"
+                     data-atropos-offset="-5"
+                     style="background-image: url(/assets/know.jpg); background-size:100% 100%">
                 </div>
               </atropos>
             </div>
@@ -188,7 +193,7 @@
       <!--TESTIMONIALS-->
 
       <section>
-        <div class="h-24 grid place-content-center bg-teal-400 w-full">
+        <div class="h-24 grid place-content-center bg-yellow-600 w-full">
           <TrainerSubtitle title="TESTIMONIOS"/>
         </div>
         <div class="py-5">
