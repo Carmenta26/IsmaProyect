@@ -1,237 +1,244 @@
 <template>
-<div>
-  <head>
+  <div>
+    <head>
 
-  </head>
-  <div id="body">
+    </head>
+    <div id="body">
 
-    <NuxtLayout name="navbar">
+      <NuxtLayout name="navbar">
 
-      <!--Header-->
-      <section>
-        <div>
-          <div class="wave parallax  bg-center brightness-50 z-0 "
-               style="background-image: url(/assets/head.jpg); height: 850px;">
-            <div class=" grid place-content-center h-full bg-transparent">
-              <TrainerTitle title="ASESORAMIENTO PERSONAL PARA PERDER GRASA Y TONIFICAR"/>
-              <TrainerTitleDescrition title=" CAMBIA TU VIDA COMIENDO DE TODO."/>
-
-              <div class="grid place-content-center">
-
-                <TrainerRoundedButton>
-                  <p>QUIERO CAMBIAR </p>
-                  <p>AHORA</p>
-                </TrainerRoundedButton>
-
-              </div>
-            </div>
-          </div>
-        </div>
-
-      </section>
-
-      <!--Why-->
-      <section class="grid justify-items-center place-content-center sm:flex sm:justify-center ">
-        <div class=" grid  md:grid-cols-3 px-4 md:gap-10 py-10 sm:w-3/4">
-          <div class=" sm:col-span-2  text-justify">
-            <TrainerSubtitle title="¿Por qué TEAM FITBYISMA?"/>
-            <TrainerDescription :description="why.description1" class="font-bold"/>
-            <p>
-              <span class="font-bold text-base  py-1.5">Conozco esa sensacion de verte mal por cada espejo al que pasas. De no verte bien con cualquier prenda de ropa y tener una baja autoestima asi que Ayudo a hombres y mujeres</span> que les cueste perder grasa, a que lo consigan disfrutando de sus comidas favoritas y mejorando sus habitos y salud sin pasar hambre y viendo resultados en menos de 1 més.
-            </p>
-
-            <TrainerDescription :description="why.description3"/>
-            <TrainerDescription :description="why.description4"/>
-            <TrainerDescription :description="why.description5"/>
-
-            <div class=" flex justify-center sm:justify-start sm:grid sm:justify-items-start">
-              <TrainerButtonMedium content="ÚNETE AHORA "/>
-            </div>
-          </div>
+        <!--Header-->
+        <section>
           <div>
-            <div class=" sm:block sm:inline py-4 px-4">
-              <atropos >
+            <div class="wave parallax  bg-center brightness-50 z-0 "
+                 style="background-image: url(/assets/head.jpg); height: 850px;">
+              <div class=" grid place-content-center h-full bg-transparent">
+                <TrainerTitle title="ASESORAMIENTO PERSONAL PARA PERDER GRASA Y TONIFICAR"/>
+                <TrainerTitleDescrition title=" CAMBIA TU VIDA COMIENDO DE TODO."/>
 
-              <div class="bg-cover bg-center h-[600px]  w-72 mx-auto" data-atropos-offset="-5"
-                   style="background-image: url(/assets/why.jpg);">
-              </div>
-              </atropos>
+                <div class="grid place-content-center">
 
-            </div>
-          </div>
-        </div>
-      </section>
+                  <TrainerRoundedButton>
+                    <p>QUIERO CAMBIAR </p>
+                    <p>AHORA</p>
+                  </TrainerRoundedButton>
 
-
-      <!--Expert in-->
-      <ExpertIn/>
-
-      <!--Transforms-->
-      <section>
-        <div class="h-24 grid place-content-center text-center bg-yellow-600 w-full ">
-          <TrainerSubtitle title="Transformaciones de Clientes "/>
-        </div>
-        <!--<TrainerCarrousel/>-->
-        <!--<GaleryPhone/>-->
-        <GaleryPhone/>
-    </section>
-
-
-    <!--containing-->
-      <div class="h-24 grid place-content-center text-center bg-yellow-600 w-full ">
-        <TrainerSubtitle title="Programas diseñados para ti"/>
-      </div>
-
-      <section class="grid justify-items-center place-content-center sm:flex sm:justify-center ">
-        <div class=" grid  md:grid-cols-3 px-4 md:gap-10 py-10 sm:w-3/4">
-          <div class=" sm:col-span-2  text-justify">
-            <TrainerSubtitle title="Programas de entrenamiento adaptado a ti"/>
-            <p>Te crearé un plan de entrenamiento totalmente personalizado y adaptado a tu cuerpo para que consigas <span class="font-bold text-base  py-1.5">los mejores resultados en el menor tiempo posible.</span></p>
-            <TrainerDescription :description="containing1.description2"/>
-            <TrainerDescription :description="containing1.description3"/>
-           </div>
-          <div>
-            <div class=" sm:block sm:inline py-4 px-4">
-              <atropos >
-                <div class="bg-cover bg-center h-[400px]  w-72 mx-auto" data-atropos-offset="-5"
-                     style="background-image: url(/assets/entrenamiento.jpg);">
                 </div>
-              </atropos>
-
-            </div>
-          </div>
-
-          <div class=" sm:col-span-2  text-justify">
-            <TrainerSubtitle title="Planes de alimentación adaptados ati"/>
-
-            <TrainerDescription :description="containing2.description1"/>
-
-            <TrainerDescription :description="containing2.description3"/>
-            <TrainerDescription :description="containing2.description4"/>
-          </div>
-          <div>
-            <div class=" sm:block sm:inline py-4 px-4">
-              <atropos >
-                <div class="bg-cover bg-center h-[400px]  w-72 mx-auto" data-atropos-offset="-5"
-                     style=" background-image: url(/assets/plan.comida.jpg );background-size: cover;">
-                </div>
-              </atropos>
-
-            </div>
-          </div>
-
-
-        </div>
-      </section>
-
-
-
-
-      <!--free-->
-      <section>
-
-        <div class="h-24 grid place-content-center bg-yellow-600 w-full">
-          <TrainerSubtitle title="Lo que también recibes GRATIS"/>
-        </div>
-        <!--free
-        <div class="flex content-center">
-          <div class="grid-cols-2 gap-12  w-1/2">
-              <div>
-                <div class="bg-cover bg-center " style="background-image: url(/assets/content2.jpeg); height: 400px ;"/>
               </div>
+            </div>
+          </div>
+
+        </section>
+
+        <!--Why-->
+        <section class="grid justify-items-center place-content-center sm:flex sm:justify-center ">
+          <div class=" grid  md:grid-cols-3 px-4 md:gap-10 py-10 sm:w-3/4">
+            <div class=" sm:col-span-2  text-justify">
+              <TrainerSubtitle title="¿Por qué TEAM FITBYISMA?"/>
+              <TrainerDescription :description="why.description1" class="font-bold"/>
+              <p>
+                <span class="font-bold text-base  py-1.5">Conozco esa sensacion de verte mal por cada espejo al que pasas. De no verte bien con cualquier prenda de ropa y tener una baja autoestima asi que Ayudo a hombres y mujeres</span>
+                que les cueste perder grasa, a que lo consigan disfrutando de sus comidas favoritas y mejorando sus
+                habitos y salud sin pasar hambre y viendo resultados en menos de 1 més.
+              </p>
+
+              <TrainerDescription :description="why.description3"/>
+              <TrainerDescription :description="why.description4"/>
+              <TrainerDescription :description="why.description5"/>
+
+              <div class=" flex justify-center sm:justify-start sm:grid sm:justify-items-start">
+                <TrainerButtonMedium content="ÚNETE AHORA "/>
+              </div>
+            </div>
             <div>
-               <div class="bg-red-400 rounded-full col-span-2">
-                 gñlm
-               </div>
-             </div>
+              <div class=" sm:block sm:inline py-4 px-4">
+                <atropos>
+
+                  <div class="rounded-video bg-cover bg-center h-[600px]  w-72 mx-auto" data-atropos-offset="-5"
+                       style="background-image: url(/assets/why.jpg);">
+                  </div>
+                </atropos>
+
+              </div>
+            </div>
           </div>
+        </section>
+
+
+        <!--Expert in-->
+        <ExpertIn/>
+
+        <!--Transforms-->
+        <section>
+          <div class="h-24 grid place-content-center text-center bg-yellow-600 w-full ">
+            <TrainerSubtitle title="Transformaciones de Clientes "/>
+          </div>
+          <!--<TrainerCarrousel/>-->
+          <!--<GaleryPhone/>-->
+          <GaleryPhone/>
+        </section>
+
+
+        <!--containing-->
+        <div class="h-24 grid place-content-center text-center bg-yellow-600 w-full ">
+          <TrainerSubtitle title="Programas diseñados para ti"/>
         </div>
-        -->
 
-        <TrainerCardsContent/>
-      </section>
+        <section class="grid justify-items-center place-content-center sm:flex sm:justify-center ">
+          <div class=" grid  md:grid-cols-3 px-4 md:gap-10 py-10 sm:w-3/4">
+            <div class=" sm:col-span-2  text-justify">
+              <TrainerSubtitle title="Programas de entrenamiento adaptado a ti"/>
+              <p>Te crearé un plan de entrenamiento totalmente personalizado y adaptado a tu cuerpo para que consigas
+                <span class="font-bold text-base  py-1.5">los mejores resultados en el menor tiempo posible.</span></p>
+              <TrainerDescription :description="containing1.description2"/>
+              <TrainerDescription :description="containing1.description3"/>
+            </div>
+            <div>
+              <div class=" sm:block sm:inline py-4 px-4">
+                <atropos>
+                  <div class=" rounded-video bg-cover bg-center h-[400px]  w-72 mx-auto" data-atropos-offset="-5"
+                       style="background-image: url(/assets/entrenamiento.jpg);">
+                  </div>
+                </atropos>
+
+              </div>
+            </div>
+
+            <div class=" sm:col-span-2  text-justify">
+              <TrainerSubtitle title="Planes de alimentación adaptados ati"/>
+
+              <TrainerDescription :description="containing2.description1"/>
+
+              <TrainerDescription :description="containing2.description3"/>
+              <TrainerDescription :description="containing2.description4"/>
+            </div>
+            <div>
+              <div class=" sm:block sm:inline py-4 px-4">
+                <atropos>
+                  <div class="rounded-video bg-cover bg-center h-[400px]  w-72 mx-auto" data-atropos-offset="-5"
+                       style=" background-image: url(/assets/plan.comida.jpg );background-size: cover;">
+                  </div>
+                </atropos>
+
+              </div>
+            </div>
 
 
-      <!--meet your coach-->
-
-      <div class="h-24 grid place-content-center bg-yellow-600 w-full">
-        <TrainerSubtitle title="Conoce a tu entrenador"/>
-      </div>
-      <section class="grid justify-items-center place-content-center sm:flex sm:justify-center ">
-        <div class=" grid  md:grid-cols-3 px-4 md:gap-10 py-10 sm:w-3/4">
-
-            <div class=" sm:block sm:inline py-4 px-4">
-              <atropos >
+          </div>
+        </section>
 
 
-                <div class="bg-center h-[600px] w-72 mx-auto"
-                     data-atropos-offset="-5"
-                     style="background-image: url(/assets/know.jpg); background-size:100% 100%">
+        <!--free-->
+        <section>
+
+          <div class="h-24 grid place-content-center bg-yellow-600 w-full">
+            <TrainerSubtitle title="Lo que también recibes GRATIS"/>
+          </div>
+          <!--free
+          <div class="flex content-center">
+            <div class="grid-cols-2 gap-12  w-1/2">
+                <div>
+                  <div class="bg-cover bg-center " style="background-image: url(/assets/content2.jpeg); height: 400px ;"/>
                 </div>
-              </atropos>
+              <div>
+                 <div class="bg-red-400 rounded-full col-span-2">
+                   gñlm
+                 </div>
+               </div>
             </div>
-
-          <div class="col-span-1 sm:col-span-2  text-justify">
-            <TrainerSubtitle title="¡Ismael Charafi!"/>
-            <TrainerDescription :description="know.description1"/>
-            <TrainerDescription :description="know.description2"/>
-            <TrainerDescription :description="know.description3"/>
-            <TrainerDescription :description="know.description4"/>
           </div>
+          -->
+
+          <TrainerCardsContent/>
+        </section>
 
 
+        <!--meet your coach-->
 
-        </div>
-      </section>
-
-
-      <!--Expert in-->
-      <ExpertIn/>
-
-
-
-      <!--TESTIMONIALS-->
-
-      <section>
         <div class="h-24 grid place-content-center bg-yellow-600 w-full">
-          <TrainerSubtitle title="TESTIMONIOS"/>
+          <TrainerSubtitle title="Conoce a tu entrenador"/>
         </div>
-        <div class="py-5">
+        <section class="grid justify-items-center place-content-center ">
+          <div class="  px-4  py-10 sm:w-3/4">
 
-        </div>
-      </section>
+            <div class=" gap-11 grid md:flex ">
+              <div class="p-4">
+                <atropos>
+                  <div class="rounded-video bg-center h-[400px]  sm:w-72 mx-auto"
+                       data-atropos-offset="-5"
+                       style="background-image: url(/assets/know.jpg); background-size:100% 100%">
+                  </div>
+                </atropos>
+              </div>
+              <div>
+                <TrainerSubtitle title="¡Ismael Charafi!"/>
+                <TrainerDescription :description="know.description1"/>
+                <TrainerDescription :description="know.description2"/>
+              </div>
+            </div>
 
-
-
-
-
-      <!--Footer-->
-      <section>
-        <div class=" text-center h-auto grid place-content-center bg-neutral-800 w-full mx-auto text-white gap-7">
-          <div class="flex justify-center">
-            <img src="/assets/logo.png" alt="Logo" class="h-14 pt-3">
-          </div>
-          <div class="grid justify-items-center">
-            <p class="text-center"> © FITBYISMA 2022 All Rights Reserved</p>
-            <p class="text-center">Términos y condiciones</p>
-
-            <div class="flex gap-5 py-1">
-              <a href="https://www.instagram.com/fitbyisma/" target="_blank">
-              <img class="h-10 py-1.5" src="/assets/icons/instagram.png">
-              </a>
-              <a href="https://www.tiktok.com/@fitbyisma" target="_blank">
-              <img class="h-10 py-1.5" src="/assets/icons/tik-tok.png">
-              </a>
-              <a href="https://www.youtube.com/@fitbyisma/videos" target="_blank">
-              <img class="h-10 py-1.5" src="/assets/icons/youtube.png">
-              </a>
+            <div class=" gap-11 py-14 grid md:flex">
+              <div class="p-4">
+                <atropos>
+                  <div class="rounded-video bg-center h-[400px] w-72 mx-auto"
+                       data-atropos-offset="-5"
+                       style="background-image: url(/assets/know.jpg); background-size:100% 100%">
+                  </div>
+                </atropos>
+              </div>
+              <div>
+                <TrainerDescription :description="know.description3"/>
+                <TrainerDescription :description="know.description4"/>
+              </div>
             </div>
           </div>
-        </div>
-      </section>
-    </NuxtLayout>
+        </section>
+
+
+        <!--Expert in-->
+        <ExpertIn/>
+
+
+        <!--TESTIMONIALS-->
+
+        <section>
+          <div class="h-24 grid place-content-center bg-yellow-600 w-full">
+            <TrainerSubtitle title="TESTIMONIOS"/>
+          </div>
+          <div class="py-5 grid justify-center items-center">
+            <TestimonialsContent></TestimonialsContent>
+          </div>
+        </section>
+
+
+        <!--Footer-->
+        <section>
+          <div class=" text-center h-auto grid place-content-center bg-neutral-800 w-full mx-auto text-white gap-7">
+            <div class="flex justify-center">
+              <img src="/assets/logo.png" alt="Logo" class="h-14 pt-3">
+            </div>
+            <div class="grid justify-items-center">
+              <p class="text-center"> © FITBYISMA 2022 All Rights Reserved</p>
+              <NuxtLink to="TrainerTerminos">
+                <button><u><p class="text-center">Términos y condiciones</p></u></button>
+              </NuxtLink>
+              <div class="flex gap-5 py-1">
+                <a href="https://www.instagram.com/fitbyisma/" target="_blank">
+                  <img class="h-10 py-1.5" src="/assets/icons/instagram.png">
+                </a>
+                <a href="https://www.tiktok.com/@fitbyisma" target="_blank">
+                  <img class="h-10 py-1.5" src="/assets/icons/tik-tok.png">
+                </a>
+                <a href="https://www.youtube.com/@fitbyisma/videos" target="_blank">
+                  <img class="h-10 py-1.5" src="/assets/icons/youtube.png">
+                </a>
+              </div>
+            </div>
+          </div>
+        </section>
+      </NuxtLayout>
+    </div>
   </div>
-</div>
 </template>
 
 
@@ -249,11 +256,12 @@ import ExpertIn from "../layouts/TrainerExpertIn";
 import TrainerCarrousel from "/layouts/TrainerCarrousel.vue";
 import Atropos from "atropos/vue";
 import GaleryPhone from "~/layouts/GaleryPhone.vue";
-
+import TestimonialsContent from "~/layouts/TestimonialsContent.vue";
 
 
 export default {
   components: {
+    TestimonialsContent,
     GaleryPhone,
     TrainerCarrousel,
     TrainerCardsContent,

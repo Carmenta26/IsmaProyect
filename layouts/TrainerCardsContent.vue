@@ -33,8 +33,8 @@
 
 
 
-        <div class="grid justify-items-center">
-          <img class="h-52 pb-7" src="/assets/videollamda.jpg" alt="">
+        <div class=" grid justify-items-center">
+          <img class=" rounded-video h-52 mb-7" src="/assets/videollamda.jpg" alt="">
           <div class="text-2xl py-1.5 font-semibold">
             Videollamadas Semanal
           </div>
