@@ -161,10 +161,10 @@
         <section class="grid justify-items-center place-content-center ">
           <div class="  px-4  py-10 sm:w-3/4">
 
-            <div class=" gap-11 grid md:flex ">
+            <div class=" gap-11 grid lg:flex">
               <div class="p-4">
                 <atropos>
-                  <div class="rounded-video bg-center h-[400px]  sm:w-72 mx-auto"
+                  <div class="rounded-video bg-center h-[400px] w-72 mx-auto"
                        data-atropos-offset="-5"
                        style="background-image: url(/assets/know.jpg); background-size:100% 100%">
                   </div>
@@ -177,7 +177,7 @@
               </div>
             </div>
 
-            <div class=" gap-11 py-14 grid md:flex">
+            <div class=" gap-11 py-14 grid lg:flex">
               <div class="p-4">
                 <atropos>
                   <div class="rounded-video bg-center h-[400px] w-72 mx-auto"
