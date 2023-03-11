@@ -221,7 +221,8 @@
               <p class="text-center"> © FITBYISMA 2022 All Rights Reserved</p>
 
 
-              <NuxtLink to="TrainerTerminos">
+
+              <NuxtLink to="/TrainerTerminos">
                 <button><u><p class="text-center">Términos y condiciones</p></u></button>
               </NuxtLink>
               <div class="flex gap-5 py-1">

@@ -1,6 +1,6 @@
 <template>
   <div>
-    <div class="bg-[url('/ass')] h-14 pt-72 flex">
+    <div class="bg-red-700 h-14 pt-72 flex">
       <img src="">
     </div>
     <div>
