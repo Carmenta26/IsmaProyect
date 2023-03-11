@@ -1,7 +1,7 @@
 <template>
   <div>
-    <div class="bg-gray-800 h-14 px-5 flex">
-
+    <div class="bg-[url('/ass')] h-14 pt-72 flex">
+      <img src="">
     </div>
     <div>
 

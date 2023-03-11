@@ -15,7 +15,7 @@
             <div class="px-8 lg:px-32 flex flex-col space-y-1 bg-white">
               <div>
                 <h3 class="text-center text-black text-2xl font-bold  py-10">
-                  ENTRA en lista de espera para el Team Llados
+                  ENTRA en lista de espera para el Team
                 </h3>
               </div>
               <div class="bg-white  rounded-lg   space-y-1">

@@ -166,7 +166,7 @@
                 <atropos>
                   <div class="rounded-video bg-center h-[400px] w-72 mx-auto"
                        data-atropos-offset="-5"
-                       style="background-image: url(/assets/know.jpg); background-size:100% 100%">
+                       style="background-image: url(/assets/know1.jpeg); background-size:100% 100%">
                   </div>
                 </atropos>
               </div>
@@ -182,7 +182,7 @@
                 <atropos>
                   <div class="rounded-video bg-center h-[400px] w-72 mx-auto"
                        data-atropos-offset="-5"
-                       style="background-image: url(/assets/know.jpg); background-size:100% 100%">
+                       style="background-image: url(/assets/know2.jpeg); background-size:100% 100%">
                   </div>
                 </atropos>
               </div>
@@ -219,6 +219,8 @@
             </div>
             <div class="grid justify-items-center">
               <p class="text-center"> © FITBYISMA 2022 All Rights Reserved</p>
+
+
               <NuxtLink to="TrainerTerminos">
                 <button><u><p class="text-center">Términos y condiciones</p></u></button>
               </NuxtLink>
