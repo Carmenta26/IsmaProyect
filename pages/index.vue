@@ -105,7 +105,7 @@
             </div>
 
             <div class=" sm:col-span-2  text-justify">
-              <TrainerSubtitle title="Planes de alimentación adaptados ati"/>
+              <TrainerSubtitle title="Planes de alimentación adaptados a ti"/>
 
               <TrainerDescription :description="containing2.description1"/>
 
