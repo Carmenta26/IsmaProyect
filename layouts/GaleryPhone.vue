@@ -25,6 +25,24 @@
       <div class="gallery-item">
         <div class="content"><img src="/assets/Transforms/8.jpg" alt=""></div>
       </div>
+      <div class="gallery-item">
+        <div class="content"><img src="/assets/Transforms/9.jpg" alt=""></div>
+      </div>
+      <div class="gallery-item">
+        <div class="content"><img src="/assets/Transforms/10.jpg" alt=""></div>
+      </div>
+      <div class="gallery-item">
+        <div class="content"><img src="/assets/Transforms/11.jpg" alt=""></div>
+      </div>
+      <div class="gallery-item">
+        <div class="content"><img src="/assets/Transforms/12.jpg" alt=""></div>
+      </div>
+      <div class="gallery-item">
+        <div class="content"><img src="/assets/Transforms/13.jpg" alt=""></div>
+      </div>
+      <div class="gallery-item">
+        <div class="content"><img src="/assets/Transforms/14.jpg" alt=""></div>
+      </div>
 
     </div>
     </div>
