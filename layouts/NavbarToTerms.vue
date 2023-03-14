@@ -1,9 +1,9 @@
 <template>
   <div>
-    <nav class="flex  h-24 bg-black">
+    <nav class="flex h-24 bg-black">
       <div class="container flex flex-wrap justify-center items-center mx-auto">
         <a href="" class="flex items-center">
-            <img src="assets/logo.png" class="mx-auto mr-3 h-6 sm:h-14" alt="Flowbite Logo"/>
+          <img src="assets/logo.png" class="mx-auto mr-3 h-6 sm:h-14" alt="Flowbite Logo"/>
         </a>
       </div>
     </nav>
@@ -13,10 +13,6 @@
 
 <script>
 export default {
-  name: "navbarToTerms"
+  name: "NavbarToTerms",
 }
 </script>
-
-<style scoped>
-
-</style>
