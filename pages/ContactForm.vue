@@ -27,12 +27,12 @@
                   <label class="px-1">
                     Edad
                   </label>
-                  <TrainerInput type-of-input="text" name="edad"/>
+                  <TrainerInput type-of-input="number" name="edad"/>
 
                   <label class="px-1">
                     Telefono Movil:
                   </label>
-                  <TrainerInput type-of-input="text" name="telefono"/>
+                  <TrainerInput type-of-input="number" name="telefono"/>
                   <label class="px-1">
                     ¿Dónde vives?
                   </label>
