@@ -10,7 +10,7 @@
         <!--Header-->
         <section>
           <div>
-            <div class="wave parallax  bg-center brightness-50 z-0 "
+            <div class="wave parallax  bg-center  "
                  style="background-image: url(/assets/head.jpg); height: 850px;">
               <div class=" grid place-content-center h-full bg-transparent">
                 <TrainerTitle title="ASESORAMIENTO PERSONAL PARA PERDER GRASA Y TONIFICAR"/>
