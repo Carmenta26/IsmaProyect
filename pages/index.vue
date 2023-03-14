@@ -205,9 +205,7 @@
           <div class="h-24 grid place-content-center bg-yellow-600 w-full">
             <TrainerSubtitle title="TESTIMONIOS"/>
           </div>
-          <div class="py-5 grid justify-center items-center">
-            <TestimonialsContent></TestimonialsContent>
-          </div>
+          <TestimonialsContent></TestimonialsContent>
         </section>
 
 
@@ -219,8 +217,6 @@
             </div>
             <div class="grid justify-items-center">
               <p class="text-center"> © FITBYISMA 2022 All Rights Reserved</p>
-
-
 
               <NuxtLink to="/TrainerTerminos">
                 <button><u><p class="text-center">Términos y condiciones</p></u></button>
