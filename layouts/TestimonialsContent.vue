@@ -44,7 +44,8 @@ export default {
         },
         {
           videoLink:
-              'https://drive.google.com/uc?export=download&id=1KGI5vtLJ7ZivaCPH-rwCjK83Vs-2mlfa',
+              'https://drive.google.com/uc?export=download&id=1GyKYm4x2PAitTNbq3W4DFBdzMqZlxKoh',
+
 
         },
 
