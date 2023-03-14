@@ -4,7 +4,7 @@
     <nav class="bg-white border-gray-200  sm:px-4 py-2 rounded dark:bg-gray-900">
       <div class="container flex h-20 flex-wrap justify-center sm:justify-between items-center mx-auto ">
         <a href="" class="flex items-center">
-          <img src="/assets/logo.png" class="mr-3 h-10 sm:h-14" alt="Flowbite Logo"/>
+          <img src="/assets/logo.png" class=" h-10 sm:h-14" alt="Flowbite Logo"/>
 
         </a>
         <button data-collapse-toggle="navbar-default" type="button"

@@ -63,7 +63,7 @@
       </div>
 
       <div class="flex justify-center py-14 lg:py-8">
-        <TrainerButtonMedium content="Agenda una llamada GRATUITA"/>
+        <TrainerButtonMedium content="QUIERO EMPEZAR YA"/>
       </div>
     </section>
   </div>

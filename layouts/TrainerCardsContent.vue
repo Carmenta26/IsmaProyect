@@ -1,6 +1,6 @@
 <template>
   <div>
-    <div class="flex h-min items-center justify-center bg-cover bg-center relative overflow-hidden bg-white py-14"  >
+    <div class="flex h-min items-center justify-center bg-cover bg-center relative overflow-hidden bg-white py-10"  >
 
       <!--div class="grid grid-cols-1 gap-10 md:grid-cols-2 lg:grid-cols-2">
       
@@ -38,7 +38,7 @@
           <div class="text-2xl py-1.5 font-semibold">
             Videollamadas Semanal
           </div>
-          <div class="font-normal py-1.5 font-base text-center">
+          <div class="font-normal  font-base text-center">
             Control semanal conmigo mediante videollamadas, para revisar tu progreso, ajustar tu plan de entrenamiento y nutrición según tus necesidades y motivarte para seguir adelante.
           </div>
         </div>
@@ -57,28 +57,34 @@
           <div class="text-2xl py-1.5 font-semibold">
             Soporte Por Whatsapp 24h
           </div>
-          <div class="font-normal py-1.5 font-base text-center">
+          <div class="font-normal  font-base text-center">
             Tendrás soporte 24/7 por whatsaap para resolver dudas en cualquier momento  y recibir asistencia personalizada en cualquier momento.
           </div>
         </div>
+
+
+
+
       </div>
 
     </div>
   </div>
+  <div class="flex justify-center items-center mx-auto py-6">
+    <TrainerButtonMedium content="QUIERO EMPEZAR YA"/>
+  </div>
 </template>
 
 <script>
-import TrainerTitle from "../components/Texts/TrainerTitle";
-import TrainerRoundedButton from "../components/Buttons/TrainerRoundedButton";
-import TrainerTitleDescrition from "../components/Texts/TrainerTitleDescrition";
-import TrainerSubtitle from "../components/Texts/TrainerSubtitle";
-import TrainerDescription from "../components/Texts/TrainerDescription";
-import TrainerButtonMedium from "../components/Buttons/TrainerButtonMedium";
-import TrainerCardsContent from "../layouts/TrainerCardsContent";
+
+
+import TrainerRoundedButton from "~/components/Buttons/TrainerRoundedButton.vue";
+import TrainerButtonMedium from "~/components/Buttons/TrainerButtonMedium.vue";
 
 export default {
   name: "TrainerCardsContent",
   components:{
+    TrainerButtonMedium,
+    TrainerRoundedButton
 
   }
 }

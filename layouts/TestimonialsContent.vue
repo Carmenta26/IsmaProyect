@@ -1,4 +1,11 @@
 <template>
+  <div class="grid grid grid-cols-1 justify-center items-center">
+
+    <div class="mx-auto my-7 font-bold">
+      <a href="/ContactForm">
+        <button><u><p class="text-center text-red-700 text-4xl">PLAZAS LIMITADAS</p></u></button>
+      </a>
+    </div>
   <section class="grid grid-cols-2 md:grid-cols-4 py-10">
     <div
         v-for="link in links"
@@ -15,6 +22,12 @@
       <img class="rounded-image" width="320" height="600" v-bind:src="foto.imageLink"/>
     </div>
   </section>
+    <div class="mx-auto my-7 font-bold">
+      <a href="/ContactForm">
+        <button><u><p class="text-center text-red-700 text-4xl">RESERVAR MI PLAZA AHORA</p></u></button>
+      </a>
+    </div>
+  </div>
 </template>
 
 <script>
