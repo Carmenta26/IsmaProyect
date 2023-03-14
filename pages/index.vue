@@ -218,9 +218,9 @@
             <div class="grid justify-items-center">
               <p class="text-center"> © FITBYISMA 2022 All Rights Reserved</p>
 
-              <NuxtLink to="/TrainerTerminos">
+              <a href="/TrainerTerminos">
                 <button><u><p class="text-center">Términos y condiciones</p></u></button>
-              </NuxtLink>
+              </a>
               <div class="flex gap-5 py-1">
                 <a href="https://www.instagram.com/fitbyisma/" target="_blank">
                   <img class="h-10 py-1.5" src="/assets/icons/instagram.png">

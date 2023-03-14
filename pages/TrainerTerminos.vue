@@ -1,7 +1,7 @@
 <template>
   <div>
     <NavbarToTerms>
-      <section class="grid justify-items-center place-content-center ">
+      <section class="grid justify-items-center place-content-center" id="inicio">
         <div class="px-4 py-10 sm:w-3/4">
           <div class=" gap-11 grid lg:flex">
             <div>
