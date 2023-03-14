@@ -5,7 +5,7 @@
 
       <div class="h-24 grid  place-content-center  w-full pt-12">
 
-        <h1 class=" text-white sm:text-3xl text-base  font-semibold  py-1.5">
+        <h1 class=" text-white text-xl sm:text-3xl   font-semibold  py-1.5">
           +119 <span class="text-yellow-600">VIDAS TRANSFORMADAS</span>
         </h1>
 

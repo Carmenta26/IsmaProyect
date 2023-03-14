@@ -1,6 +1,6 @@
 <template>
   <div>
-    <h1 class="text-center text-white sm:text-3xl md:text-3xl lg:text-5xl font-bold  py-1.5 ">
+    <h1 class="text-center text-white text-2xl md:text-xl lg:text-3xl lg:text-4xl font-bold  py-1.5 ">
       {{ title }}
     </h1>
   </div>

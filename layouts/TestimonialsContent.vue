@@ -42,15 +42,17 @@ export default {
               'https://drive.google.com/uc?export=download&id=1KGI5vtLJ7ZivaCPH-rwCjK83Vs-2mlfa',
 
         },
+        {
+          videoLink:
+              'https://drive.google.com/uc?export=download&id=1KGI5vtLJ7ZivaCPH-rwCjK83Vs-2mlfa',
+
+        },
 
 
       ],
 
       fotos: [
-        {
-          imageLink:
-              'https://drive.google.com/uc?export=view&id=1az30bUd0NYAu_sIDhSbaRS06naxsaPA3',
-        },
+
         {
           imageLink:
               'https://drive.google.com/uc?export=view&id=1A2i-tHQ2CP969xKUQ0lWuOXtmQs8xUNJ',
@@ -59,7 +61,10 @@ export default {
           imageLink:
               'https://drive.google.com/uc?export=view&id=12h_OEn7CvD-UiIxrXsY5i0XpcsvFFuxW',
         },
-
+        {
+          imageLink:
+              'https://drive.google.com/uc?export=view&id=1az30bUd0NYAu_sIDhSbaRS06naxsaPA3',
+        },
 
 
       ],
