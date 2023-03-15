@@ -29,7 +29,7 @@
         <div class="content"><img src="/assets/Transforms/9.jpg" alt=""></div>
       </div>
       <div class="gallery-item">
-        <div class="content"><img src="/assets/Transforms/10.JPEG" alt=""></div>
+        <div class="content"><img src="/assets/Transforms/10.jpeg" alt=""></div>
       </div>
       <div class="gallery-item">
         <div class="content"><img src="/assets/Transforms/11.jpg" alt=""></div>

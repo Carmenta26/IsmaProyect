@@ -44,7 +44,7 @@
         </div>
 
         <div class="grid justify-items-center">
-          <img class="h-max pb-7" src="/assets/appIsma.png" alt="">
+          <img class="h-max-sm sm:h-max pb-7" src="/assets/appIsma.png" alt="">
           <div class="text-2xl py-1.5 font-semibold">
             Aplicación Móvil Exclusiva
           </div>

@@ -8,9 +8,12 @@ export default defineNuxtConfig({
     ],
     app: {
         head: {
+            title: 'FITBYISMA',
             link: [{
                 rel: 'icon', type: 'image/png', href: '/assets/logo.png'
-            }]
+            }],
+
+
         }
     }
 })

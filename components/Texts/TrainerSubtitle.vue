@@ -1,6 +1,6 @@
 <template>
   <div>
-    <h2 class="text-2xl lg:text-2xl font-bold py-1.5" :class="textStyle">
+    <h2 class="text-2xl lg:text-2xl font-bold py-1.5 text-center sm:text-left" :class="textStyle">
       {{ title }}
     </h2>
   </div>
