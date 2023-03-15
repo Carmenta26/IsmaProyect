@@ -3,7 +3,7 @@
 
     <div class="mx-auto my-7 font-bold">
       <a href="/ContactForm">
-        <button><u><p class="text-center text-red-700 text-4xl">PLAZAS LIMITADAS</p></u></button>
+        <button><u><p class="text-center text-red-700 text-4xl font-bold">PLAZAS LIMITADAS</p></u></button>
       </a>
     </div>
   <section class="grid grid-cols-2 md:grid-cols-4 py-10">
@@ -24,7 +24,7 @@
   </section>
     <div class="mx-auto my-7 font-bold">
       <a href="/ContactForm">
-        <button><u><p class="text-center text-red-700 text-4xl">RESERVAR MI PLAZA AHORA</p></u></button>
+        <button><u><p class="text-center text-red-700 text-4xl font-bold">RESERVAR MI PLAZA AHORA</p></u></button>
       </a>
     </div>
   </div>

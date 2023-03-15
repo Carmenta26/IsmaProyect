@@ -1,17 +1,10 @@
 <template>
   <div>
     <section>
-      <div class="grid lg:grid-cols-3">
-        <div class="bg-cover bg-center backdrop-brightness-0  lg:h-screen"
-             style="background-image: url(/assets/why.jpg);">
-          <div class="grid place-content-center h-full bg-transparent px-10 text-center lg:text-justify">
-            <TrainerSubtitle
-                title=" Si quieres transformar tu físico y lifestyle por completo en 3 meses conmigo como entrenador online, rellena el formulario abajo para conocer tu caso y déjame saber ¿COMO TE PUEDO AYUDAR?"
-                text-style="text-white"></TrainerSubtitle>
-          </div>
-        </div>
+      <div class="grid lg:grid-cols-1  justify-center items-center justify-items-center">
 
-        <div class="bg-white md:my-2 lg:col-span-2 h-max">
+
+        <div class="bg-white md:my-2  h-max">
           <div class="px-8 lg:px-32 flex flex-col space-y-1 bg-white">
             <div>
               <h3 class="text-center text-black text-2xl font-bold  py-10">

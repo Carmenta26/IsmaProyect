@@ -10,8 +10,14 @@
         <!--Header-->
         <section>
           <div>
-            <div class="wave parallax  bg-center  "
+            <div class="wave parallax  bg-center  items-center mx-auto"
                  style="background-image: url(/assets/head.jpg); height: 850px;">
+              <div class="flex justify-center items-center">
+                <div class=" font-sans text-red-700 font-bold pt-6 text-4xl ">
+                  PLAZAS LIMITADAS
+                </div>
+              </div>
+
               <div class=" grid place-content-center h-full bg-transparent">
                 <TrainerTitle title="ASESORAMIENTO PERSONAL PARA PERDER GRASA Y TONIFICAR"/>
                 <TrainerTitleDescrition title=" CAMBIA TU VIDA COMIENDO DE TODO."/>
@@ -55,7 +61,7 @@
                 <atropos>
 
                   <div class="rounded-video bg-cover bg-center h-[600px]  w-72 mx-auto" data-atropos-offset="-5"
-                       style="background-image: url(/assets/why.jpg);">
+                       style="background-image: url(/assets/w.jpg);">
                   </div>
                 </atropos>
 

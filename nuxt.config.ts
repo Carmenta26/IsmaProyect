@@ -10,8 +10,12 @@ export default defineNuxtConfig({
         head: {
             title: 'FITBYISMA',
             link: [{
-                rel: 'icon', type: 'image/png', href: '/assets/logo.png'
-            }],
+                rel: 'icon', type: 'image/png', href: '/assets/logo.png',
+
+            },
+                {rel: 'stylesheet', href: 'https://fonts.googleapis.com/css2?family=Montserrat'},
+                {rel: 'stylesheet', href: 'https://fonts.googleapis.com/css2?family=Bree+Serif'}
+            ],
 
 
         }
