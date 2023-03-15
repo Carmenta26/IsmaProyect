@@ -19,7 +19,7 @@
               </h3>
             </div>
             <div class="bg-white  rounded-lg   space-y-1">
-              <form action="https://formsubmit.co/fitbyisma@gmail.com"
+              <form action="https://formsubmit.co/254570a512f9694eeb9790ed06f02d89"
                     method="post"
                     onsubmit="window.location.href='https://buy.stripe.com/bIY9C815V8FwckE4gK'"
                     class="grid gap-2">
